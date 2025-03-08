@@ -1,0 +1,63 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+center {
+    max-width: 100%;
+}
+
+center.break {
+    margin-top: 5%;
+}
+
+.big {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.linkBtn {
+    background-color: #140165;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+
+@media (min-width:320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (max-width:481px) {
+    center img {
+        width: 100vw
+    }
+
+    center.break {
+        margin-top: 15%;
+    }
+
+    .big {
+        font-size: 150%;
+    }
+}
+
+@media (min-width:641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+}
